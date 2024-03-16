@@ -10,7 +10,7 @@ function toggleNavbar() {
 
 function changefontcolor() {
   var element = document.querySelector('.left-div');
-  element.style.color = '#ff0000';
+  element.style.color = '#0067B8';
 }
 function changefontcolor2() {
   var element = document.querySelector('.left-div');
