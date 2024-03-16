@@ -175,6 +175,7 @@ footer {
     display: block;
     white-space: pre-wrap;
     animation: fadeIn 2s ease-in-out;
+    color: #F2F2F1;
 }
 
 .center-div3 {
@@ -246,7 +247,7 @@ button {
 
 
 @keyframes fadeIn {
-    100% {
+    50% {
         opacity: 0;
         transform: translateY(-20px);
 
@@ -256,6 +257,10 @@ button {
         opacity: 1;
         transform: translateY(20px);
 
+    }
+
+    100% {
+        opacity: 1;
     }
 }
 

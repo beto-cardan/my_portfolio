@@ -10,14 +10,14 @@ function toggleNavbar() {
 
 function changefontcolor() {
   var element = document.querySelector('.left-div');
-  element.style.backgroundColor = '#0067B8';
-  element.style.color ='#FFFFFF';
+  element.style.backgroundColor = '#333';
  
 
 }
 function changefontcolor2() {
   var element = document.querySelector('.left-div');
-  element.style.backgroundColor = '#333';
+  element.style.backgroundColor = '#0067B8';
+  element.style.color ='#FFFFFF';
   
 }
 
