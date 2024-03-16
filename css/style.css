@@ -28,11 +28,6 @@ body {
     font-style: italic;
 }
 
-pre code {
-    color: #e0e8f0;
-    text-shadow: 0 0 10px #e0e8f0, 0 0 20px #e0e8f0, 0 0 30px #e0e8f0, 0 0 40px #e0e8f0, 0 0 50px #e0e8f0, 0 0 60px #e0e8f0, 0 0 70px #e0e8f0;
-}
-
 .presentation {
     display: block;
     justify-content: right;
@@ -152,7 +147,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #0067B8;
+    background-color: #36373988;
     padding: 20px 0;
     text-align: center;
 }
@@ -324,10 +319,11 @@ button {
         margin: 0 auto;
     }
 
-    .right-div2 {
+    .right-div2 .left-div {
         display: block;
         margin: 0 auto;
     }
+  
 
     .left-div2 img {
         width: 100%;
