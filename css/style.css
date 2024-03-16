@@ -303,6 +303,10 @@ button {
 
 @media screen and (max-width: 600px) {
 
+    .left-div{
+        display: block;
+        margin: 0 auto;
+    }
     footer {
         display: block;
     }
@@ -360,7 +364,6 @@ button {
     }
 
     .title-projects {
-
         padding: 20px;
     }
 }
