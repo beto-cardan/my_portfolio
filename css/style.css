@@ -87,11 +87,12 @@ header {
 }
 
 .container {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     min-height: calc(100vh - 56px)
 }
+
 
 .left-div {
     flex: 0 0 30%;
@@ -192,6 +193,7 @@ footer {
     background-color: #F2F2F2;
 }
 
+
 .title-projects {
     margin-bottom: 20px;
 }
@@ -219,7 +221,7 @@ footer {
 .img-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
     gap: 10px;
     margin-bottom: 20px;
     width: 50%;
@@ -306,7 +308,7 @@ button {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
     footer {
         display: block;
@@ -370,13 +372,8 @@ button {
     }
 }
 
-.center-div3 {
-    text-align: center;
-}
-
 .cv {
     max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-
+    border-radius: 4px; 
+    margin-bottom: 20px;   
 }
