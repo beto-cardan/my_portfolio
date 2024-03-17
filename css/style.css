@@ -40,9 +40,14 @@ body {
     font-size: 40px;
 }
 
-.navbar {
-    background-color: #0067B8;
+
+header {
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: #0067B8;
     box-shadow: 4px 4px rgba(0, 0, 0, 0.075);
 
 }

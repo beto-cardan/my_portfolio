@@ -16,8 +16,7 @@ function changefontcolor() {
 }
 function changefontcolor2() {
   var element = document.querySelector('.left-div');
-  element.style.backgroundColor = '#0067B8';
-  element.style.color ='#FFFFFF';
+  element.style.backgroundColor = '#000';
   
 }
 
