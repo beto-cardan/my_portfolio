@@ -6,7 +6,13 @@ body {
 
 .dark-mode {
     background-color: #000000b9; 
-    color: #fff;     
+    color: #fff; 
+}
+
+.dark-mode svg{
+    transition: transform 0.3s ease, color 0.3s ease;
+    transform: rotate(360deg);
+    fill: white;
 }
 
 
@@ -23,6 +29,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
    
 }
 
