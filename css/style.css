@@ -28,8 +28,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
-   
+    cursor: pointer;  
+}
+
+.btnmode :hover{
+    background-color: #3333333a;
+    border-radius: 45%;
+    width: 30px;
+    height: 30px;
+
+
 }
 
 .imgbox {
