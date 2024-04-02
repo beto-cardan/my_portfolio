@@ -21,7 +21,7 @@ function changefontcolor2() {
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
   const darkModeToggle = document.getElementById('dark-mode-toggle');
   const body = document.body;
 
@@ -37,3 +37,4 @@ document.addEventListener('DOMContentLoaded', function() {
       body.classList.add('dark-mode');
   }
 });
+*/
