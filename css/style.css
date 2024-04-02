@@ -5,7 +5,7 @@ body {
 }
 
 .dark-mode {
-    background-color: #000; 
+    background-color: #000000b9; 
     color: #fff;     
 }
 
@@ -16,10 +16,10 @@ body {
     right: 20px; 
     transform: translateY(-50%);
     z-index: 9999; 
-    background-color: #ff8c52;
-    border-radius: 40%;
-    width: 20px;
-    height: 20px;
+    background-color: #0068b889;
+    border-radius: 45%;
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
