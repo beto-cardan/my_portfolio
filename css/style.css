@@ -6,11 +6,10 @@ body {
 
 .dark-mode {
     background-color: #000000b9; 
-    color: #fff; 
 }
 
 .dark-mode svg{
-    transition: transform 0.3s ease, color 0.3s ease;
+    transition: transform 0.2s ease, color 0.2s ease;
     transform: rotate(360deg);
     fill: white;
 }
@@ -22,7 +21,7 @@ body {
     right: 20px; 
     transform: translateY(-50%);
     z-index: 9999; 
-    background-color: #0068b859;
+    background-color: #005CFF;
     border-radius: 45%;
     width: 30px;
     height: 30px;
@@ -73,7 +72,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 10000;
-    background-color: #0067B8;
+    background-color: #005CFF;
     box-shadow: 4px 4px rgba(0, 0, 0, 0.075);
 
 }
@@ -138,7 +137,7 @@ header {
 
 .left-div2 {
     flex: 0 0 50%;
-    background-color: #0068b8b7;
+    background-color: #005CFF;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -153,7 +152,7 @@ header {
 
 .right-div2 {
     flex: 0 0 50%;
-    background-color: #0068b8b7;
+    background-color: #005CFF;
     padding: 20px;
     box-sizing: border-box;
     box-shadow: #beb3b389 3px 3px;
@@ -271,7 +270,7 @@ footer {
 
 button {
     padding: 10px 20px;
-    background-color: #0068b8b7;
+    background-color: #005CFF;
     color: #fff;
     border: none;
     border-radius: 5px;
