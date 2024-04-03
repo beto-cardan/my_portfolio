@@ -163,7 +163,6 @@ header {
     background-color: #005CFF;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: #beb3b389 3px 3px;
 }
 
 .right-div2 h2 {
@@ -329,8 +328,6 @@ button {
     animation: blink 2s infinite;
     text-align: center;
 }
-
-
 
 
 @media screen and (max-width: 768px) {
