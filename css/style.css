@@ -331,6 +331,8 @@ button {
 }
 
 
+
+
 @media screen and (max-width: 768px) {
 
     .container {
@@ -401,10 +403,7 @@ button {
 
     }
 
-    .btn2 {
-
-        margin-bottom: 80px;
-    }
+  
 
     .title-projects {
         padding: 20px;
