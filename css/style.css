@@ -285,6 +285,13 @@ button {
     cursor: pointer;
 }
 
+.cv {
+    max-width: 100%;
+    border-radius: 4px; 
+    margin-bottom: 20px;   
+}
+
+
 
 @keyframes fadeIn {
     50% {
@@ -323,7 +330,9 @@ button {
     text-align: center;
 }
 
-@media (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
+
     .container {
         flex-direction: column;
     }
@@ -339,9 +348,6 @@ button {
         grid-template-columns: repeat(3, 2fr);
         grid-template-rows: repeat(2, 1fr);
     }
-}
-
-@media screen and (max-width: 768px) {
 
     footer {
         display: block;
@@ -409,10 +415,5 @@ button {
     }
 }
 
-.cv {
-    max-width: 100%;
-    border-radius: 4px; 
-    margin-bottom: 20px;   
-}
 
 
