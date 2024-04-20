@@ -334,6 +334,8 @@ button {
 
     .container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .left-div,
@@ -341,6 +343,8 @@ button {
     .left-div2,
     .center-div3 {
         flex: 0 0 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .img-container {
